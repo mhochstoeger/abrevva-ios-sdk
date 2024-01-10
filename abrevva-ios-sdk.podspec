@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/152607757/abrevva-ios-sdk'
+  s.homepage         = 'https://github.com/mhochstoeger/abrevva-ios-sdk.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '152607757' => 'm.hochstoeger@evva.com' }
   s.source           = { :git => 'https://github.com/mhochstoeger/abrevva-ios-sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'abrevva-ios-sdk/abrevva-ios-sdk/**/*'
 
+  s.dependency 'CocoaMQTT'
   # s.resource_bundles = {
   #   'abrevva-ios-sdk' => ['abrevva-ios-sdk/Assets/*.png']
   # }
@@ -39,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

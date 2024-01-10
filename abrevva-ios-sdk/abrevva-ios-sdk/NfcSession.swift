@@ -8,10 +8,9 @@
 
 import Foundation
 import CoreNFC
-import Capacitor
 import CocoaMQTT
 
-public class NfcSession: CAPPlugin, NFCTagReaderSessionDelegate {
+public class NfcSession: NSObject,  NFCTagReaderSessionDelegate {
     
     let GET_VERSION_REQ: NFCISO7816APDU = NFCISO7816APDU.init(instructionClass: 0x90, instructionCode: 0x60, p1Parameter: 0x00, p2Parameter: 0x00, data: Data(), expectedResponseLength: 256)
     let GET_VERSION_AF_REQ: NFCISO7816APDU = NFCISO7816APDU.init(instructionClass: 0x90, instructionCode: 0xAF, p1Parameter: 0x00, p2Parameter: 0x00, data: Data(), expectedResponseLength: 256)
@@ -19,12 +18,11 @@ public class NfcSession: CAPPlugin, NFCTagReaderSessionDelegate {
     var readerSession: NFCTagReaderSession?
     var nfcTagReaderSession: NFCTagReaderSession?
     var nfcTag: NFCTag?
-   // var response: (Data, UInt8, UInt8)?
     var identifier: String?
     var historicalBytes: String?
     var mqtt5Client: Mqtt5Client?
     
-    override init() {
+    public override init() {
         super.init()
     }
     
@@ -65,7 +63,6 @@ public class NfcSession: CAPPlugin, NFCTagReaderSessionDelegate {
                 return resp
             case let .miFare(tag):
                 var resp = try await tag.sendMiFareISO7816Command(apdu)
-                print("done sending")
                 return resp
             default:
                 return nil
@@ -104,7 +101,6 @@ public class NfcSession: CAPPlugin, NFCTagReaderSessionDelegate {
             }
             
             self.sendGetVersionRequest(completion: {
-                print("reached completion closure")
                 if (self.identifier == nil || self.historicalBytes == nil){
                     session.invalidate(errorMessage: "Tag not valid.")
                     return
@@ -128,7 +124,6 @@ public class NfcSession: CAPPlugin, NFCTagReaderSessionDelegate {
             self.identifier = dataSum.hexEncodedString()
             completion()
         }
-        print("done with task")
         }
     }
    

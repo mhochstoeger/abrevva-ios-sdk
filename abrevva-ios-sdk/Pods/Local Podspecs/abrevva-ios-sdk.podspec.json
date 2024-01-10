@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of abrevva-ios-sdk.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/152607757/abrevva-ios-sdk",
+  "homepage": "https://github.com/mhochstoeger/abrevva-ios-sdk.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,12 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "abrevva-ios-sdk/abrevva-ios-sdk/src/**/*"
+  "source_files": "abrevva-ios-sdk/abrevva-ios-sdk/**/*",
+  "dependencies": {
+    "CocoaMQTT": [
+
+    ]
+  }
 }

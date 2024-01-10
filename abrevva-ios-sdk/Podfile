@@ -4,8 +4,8 @@
 target 'abrevva-ios-sdk' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'abrevva-ios-sdk', :path => '../'
   pod 'CocoaMQTT'
+  pod 'abrevva-ios-sdk', :path => '../'
   # Pods for abrevva-ios-sdk
 
   target 'abrevva-ios-sdkTests' do

@@ -19,7 +19,7 @@ public class Mqtt5Client: CocoaMQTT5Delegate {
     
     private let DOCUMENT_DIR = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).path
 
-    init(clientID: String, host: String, port: UInt16, clientCertArray: CFArray?) {
+    public init(clientID: String, host: String, port: UInt16, clientCertArray: CFArray?) {
         self.clientID = clientID
         print("\(clientID) - \(host) - \(port)")
         self.mqtt5 = CocoaMQTT5(clientID: clientID, host: host, port: port)

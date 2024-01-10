@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework
 ${BUILT_PRODUCTS_DIR}/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/abrevva-ios-sdk/abrevva_ios_sdk.framework
