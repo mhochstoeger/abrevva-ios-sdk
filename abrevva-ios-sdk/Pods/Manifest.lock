@@ -1,0 +1,30 @@
+PODS:
+  - abrevva-ios-sdk (0.1.0):
+    - CocoaMQTT
+  - CocoaMQTT (2.1.6):
+    - CocoaMQTT/Core (= 2.1.6)
+  - CocoaMQTT/Core (2.1.6):
+    - MqttCocoaAsyncSocket (~> 1.0.8)
+  - MqttCocoaAsyncSocket (1.0.8)
+
+DEPENDENCIES:
+  - abrevva-ios-sdk (from `../`)
+  - CocoaMQTT
+
+SPEC REPOS:
+  trunk:
+    - CocoaMQTT
+    - MqttCocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  abrevva-ios-sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  abrevva-ios-sdk: 8fef7464aa8278d0afe9a3a1c48cf5362ed532d2
+  CocoaMQTT: 1f206228b29318eabdacad0c2e4e88575922c27a
+  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
+
+PODFILE CHECKSUM: 4621fa658190cb7badf2d038dbf7ec23a6517d13
+
+COCOAPODS: 1.14.3

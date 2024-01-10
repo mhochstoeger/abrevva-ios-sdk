@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'abrevva-ios-sdk/Classes/**/*'
-  
+  s.source_files = 'abrevva-ios-sdk/abrevva-ios-sdk/src/**/*'
+  s.dependency 'CocoaMQTT'
   # s.resource_bundles = {
   #   'abrevva-ios-sdk' => ['abrevva-ios-sdk/Assets/*.png']
   # }

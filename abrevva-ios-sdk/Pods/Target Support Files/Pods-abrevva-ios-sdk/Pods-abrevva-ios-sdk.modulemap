@@ -1,0 +1,6 @@
+module Pods_abrevva_ios_sdk {
+  umbrella header "Pods-abrevva-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module abrevva_ios_sdk {
+  umbrella header "abrevva-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

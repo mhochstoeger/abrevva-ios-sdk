@@ -1,0 +1,6 @@
+use_modular_headers!
+
+target 'abrevva-ios-sdk' do
+  pod 'CocoaMQTT'
+  pod 'abrevva-ios-sdk', :path => "../"
+end
