@@ -1,4 +1,4 @@
-module MqttCocoaAsyncSocket {
+framework module MqttCocoaAsyncSocket {
   umbrella header "MqttCocoaAsyncSocket-umbrella.h"
 
   export *

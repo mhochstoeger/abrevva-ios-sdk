@@ -1,6 +1,5 @@
 PODS:
-  - abrevva-ios-sdk (0.1.0):
-    - CocoaMQTT
+  - abrevva-ios-sdk (0.1.0)
   - CocoaMQTT (2.1.6):
     - CocoaMQTT/Core (= 2.1.6)
   - CocoaMQTT/Core (2.1.6):
@@ -21,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  abrevva-ios-sdk: 8fef7464aa8278d0afe9a3a1c48cf5362ed532d2
+  abrevva-ios-sdk: 82b8038db3467e0c2b8349e87dd8413d08984de7
   CocoaMQTT: 1f206228b29318eabdacad0c2e4e88575922c27a
   MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
 
-PODFILE CHECKSUM: 4621fa658190cb7badf2d038dbf7ec23a6517d13
+PODFILE CHECKSUM: 80a210be4b4a7d43f9544d2934fac296dd288079
 
 COCOAPODS: 1.14.3

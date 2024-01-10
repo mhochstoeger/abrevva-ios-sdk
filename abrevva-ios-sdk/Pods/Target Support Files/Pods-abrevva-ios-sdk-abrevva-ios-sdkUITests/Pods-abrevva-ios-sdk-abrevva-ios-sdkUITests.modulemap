@@ -1,0 +1,6 @@
+framework module Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests {
+  umbrella header "Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

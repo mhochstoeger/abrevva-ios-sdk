@@ -7,96 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3947D3412B4E86CB00E72544 /* src in Sources */ = {isa = PBXBuildFile; fileRef = 3947D33F2B4E861B00E72544 /* src */; };
-		8E18449659859EDB001A0FA7 /* libPods-abrevva-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBA7893BBC79AEDEDCFA26E /* libPods-abrevva-ios-sdk.a */; };
+		385542CECC4AAA5A403B606E /* Pods_abrevva_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A36AD9B1385011681174C83 /* Pods_abrevva_ios_sdk.framework */; };
+		3947D3F02B4E8B7800E72544 /* abrevva_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D3EF2B4E8B7800E72544 /* abrevva_ios_sdkTests.swift */; };
+		3947D3FA2B4E8B7800E72544 /* abrevva_ios_sdkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D3F92B4E8B7800E72544 /* abrevva_ios_sdkUITests.swift */; };
+		3947D3FC2B4E8B7800E72544 /* abrevva_ios_sdkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D3FB2B4E8B7800E72544 /* abrevva_ios_sdkUITestsLaunchTests.swift */; };
+		3947D4122B4E8E0200E72544 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D40F2B4E8E0200E72544 /* Data+Extension.swift */; };
+		3947D4132B4E8E0200E72544 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D40E2B4E8E0200E72544 /* Message.swift */; };
+		3947D4142B4E8E0200E72544 /* Mqtt5Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D4102B4E8E0200E72544 /* Mqtt5Client.swift */; };
+		3947D4152B4E8E0200E72544 /* NfcSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947D4112B4E8E0200E72544 /* NfcSession.swift */; };
+		58BB0668684325AF4A1BC0DD /* Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319B1DA6DB8602777ADAF2C7 /* Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework */; };
+		C0FD4A90294AB0D05B7F4CA1 /* Pods_abrevva_ios_sdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C9B31CB4CB7FDC77CD7804 /* Pods_abrevva_ios_sdkTests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		3947D3322B4E84FA00E72544 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		3947D3EC2B4E8B7800E72544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3947D3D32B4E8B7600E72544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3947D3DA2B4E8B7600E72544;
+			remoteInfo = "abrevva-ios-sdk";
 		};
-/* End PBXCopyFilesBuildPhase section */
+		3947D3F62B4E8B7800E72544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3947D3D32B4E8B7600E72544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3947D3DA2B4E8B7600E72544;
+			remoteInfo = "abrevva-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3947D3342B4E84FA00E72544 /* libabrevva-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libabrevva-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3947D33F2B4E861B00E72544 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		5EBA7893BBC79AEDEDCFA26E /* libPods-abrevva-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-abrevva-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99FB90DA51235679EDB7E58B /* Pods-abrevva-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk.release.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
-		FDFBA2A0D6F9D42697D162B6 /* Pods-abrevva-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk.debug.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		03A63766C2133F46E1607004 /* Pods-abrevva-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk.release.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		0A36AD9B1385011681174C83 /* Pods_abrevva_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abrevva_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C9B31CB4CB7FDC77CD7804 /* Pods_abrevva_ios_sdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abrevva_ios_sdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319B1DA6DB8602777ADAF2C7 /* Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947D3DB2B4E8B7600E72544 /* abrevva-ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "abrevva-ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947D3EB2B4E8B7800E72544 /* abrevva-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "abrevva-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947D3EF2B4E8B7800E72544 /* abrevva_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abrevva_ios_sdkTests.swift; sourceTree = "<group>"; };
+		3947D3F52B4E8B7800E72544 /* abrevva-ios-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "abrevva-ios-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947D3F92B4E8B7800E72544 /* abrevva_ios_sdkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abrevva_ios_sdkUITests.swift; sourceTree = "<group>"; };
+		3947D3FB2B4E8B7800E72544 /* abrevva_ios_sdkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abrevva_ios_sdkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3947D40E2B4E8E0200E72544 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3947D40F2B4E8E0200E72544 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		3947D4102B4E8E0200E72544 /* Mqtt5Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mqtt5Client.swift; sourceTree = "<group>"; };
+		3947D4112B4E8E0200E72544 /* NfcSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcSession.swift; sourceTree = "<group>"; };
+		432ADF7AA7DC48D1DCFB57DF /* Pods-abrevva-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk.debug.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA873599812B9AC43A90C52 /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.debug.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		872A32365A0E79B82B316B45 /* Pods-abrevva-ios-sdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdkTests.debug.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdkTests/Pods-abrevva-ios-sdkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9300D2C6B9D0D92520E0C88 /* Pods-abrevva-ios-sdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdkTests.release.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdkTests/Pods-abrevva-ios-sdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF7D571285DC3675430FADBF /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.release.xcconfig"; path = "Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3947D3312B4E84FA00E72544 /* Frameworks */ = {
+		3947D3D82B4E8B7600E72544 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E18449659859EDB001A0FA7 /* libPods-abrevva-ios-sdk.a in Frameworks */,
+				385542CECC4AAA5A403B606E /* Pods_abrevva_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3E82B4E8B7800E72544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FD4A90294AB0D05B7F4CA1 /* Pods_abrevva_ios_sdkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3F22B4E8B7800E72544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BB0668684325AF4A1BC0DD /* Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3947D32B2B4E84FA00E72544 = {
+		3947D3D22B4E8B7600E72544 = {
 			isa = PBXGroup;
 			children = (
-				3947D3362B4E84FA00E72544 /* abrevva-ios-sdk */,
-				3947D3352B4E84FA00E72544 /* Products */,
-				90B7EFED0DAD6DAD4E245402 /* Pods */,
-				7977EABE0E85028E079CA047 /* Frameworks */,
+				3947D3DD2B4E8B7600E72544 /* abrevva-ios-sdk */,
+				3947D3EE2B4E8B7800E72544 /* abrevva-ios-sdkTests */,
+				3947D3F82B4E8B7800E72544 /* abrevva-ios-sdkUITests */,
+				3947D3DC2B4E8B7600E72544 /* Products */,
+				8C3D6E81FD0886BA0F04DA56 /* Pods */,
+				FA64808082A9D2CCF6DBA0C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3947D3352B4E84FA00E72544 /* Products */ = {
+		3947D3DC2B4E8B7600E72544 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3947D3342B4E84FA00E72544 /* libabrevva-ios-sdk.a */,
+				3947D3DB2B4E8B7600E72544 /* abrevva-ios-sdk.app */,
+				3947D3EB2B4E8B7800E72544 /* abrevva-ios-sdkTests.xctest */,
+				3947D3F52B4E8B7800E72544 /* abrevva-ios-sdkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3947D3362B4E84FA00E72544 /* abrevva-ios-sdk */ = {
+		3947D3DD2B4E8B7600E72544 /* abrevva-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				3947D33F2B4E861B00E72544 /* src */,
+				3947D40F2B4E8E0200E72544 /* Data+Extension.swift */,
+				3947D40E2B4E8E0200E72544 /* Message.swift */,
+				3947D4102B4E8E0200E72544 /* Mqtt5Client.swift */,
+				3947D4112B4E8E0200E72544 /* NfcSession.swift */,
 			);
 			path = "abrevva-ios-sdk";
 			sourceTree = "<group>";
 		};
-		7977EABE0E85028E079CA047 /* Frameworks */ = {
+		3947D3EE2B4E8B7800E72544 /* abrevva-ios-sdkTests */ = {
 			isa = PBXGroup;
 			children = (
-				5EBA7893BBC79AEDEDCFA26E /* libPods-abrevva-ios-sdk.a */,
+				3947D3EF2B4E8B7800E72544 /* abrevva_ios_sdkTests.swift */,
 			);
-			name = Frameworks;
+			path = "abrevva-ios-sdkTests";
 			sourceTree = "<group>";
 		};
-		90B7EFED0DAD6DAD4E245402 /* Pods */ = {
+		3947D3F82B4E8B7800E72544 /* abrevva-ios-sdkUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FDFBA2A0D6F9D42697D162B6 /* Pods-abrevva-ios-sdk.debug.xcconfig */,
-				99FB90DA51235679EDB7E58B /* Pods-abrevva-ios-sdk.release.xcconfig */,
+				3947D3F92B4E8B7800E72544 /* abrevva_ios_sdkUITests.swift */,
+				3947D3FB2B4E8B7800E72544 /* abrevva_ios_sdkUITestsLaunchTests.swift */,
+			);
+			path = "abrevva-ios-sdkUITests";
+			sourceTree = "<group>";
+		};
+		8C3D6E81FD0886BA0F04DA56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				432ADF7AA7DC48D1DCFB57DF /* Pods-abrevva-ios-sdk.debug.xcconfig */,
+				03A63766C2133F46E1607004 /* Pods-abrevva-ios-sdk.release.xcconfig */,
+				4BA873599812B9AC43A90C52 /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.debug.xcconfig */,
+				EF7D571285DC3675430FADBF /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.release.xcconfig */,
+				872A32365A0E79B82B316B45 /* Pods-abrevva-ios-sdkTests.debug.xcconfig */,
+				A9300D2C6B9D0D92520E0C88 /* Pods-abrevva-ios-sdkTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA64808082A9D2CCF6DBA0C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A36AD9B1385011681174C83 /* Pods_abrevva_ios_sdk.framework */,
+				319B1DA6DB8602777ADAF2C7 /* Pods_abrevva_ios_sdk_abrevva_ios_sdkUITests.framework */,
+				25C9B31CB4CB7FDC77CD7804 /* Pods_abrevva_ios_sdkTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3947D3332B4E84FA00E72544 /* abrevva-ios-sdk */ = {
+		3947D3DA2B4E8B7600E72544 /* abrevva-ios-sdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3947D33B2B4E84FA00E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdk" */;
+			buildConfigurationList = 3947D3FF2B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdk" */;
 			buildPhases = (
-				E4523330AD0E5F2C6900D1C5 /* [CP] Check Pods Manifest.lock */,
-				3947D3302B4E84FA00E72544 /* Sources */,
-				3947D3312B4E84FA00E72544 /* Frameworks */,
-				3947D3322B4E84FA00E72544 /* CopyFiles */,
+				AFA7805E2E8C36A21038C3DA /* [CP] Check Pods Manifest.lock */,
+				3947D3D72B4E8B7600E72544 /* Sources */,
+				3947D3D82B4E8B7600E72544 /* Frameworks */,
+				3947D3D92B4E8B7600E72544 /* Resources */,
+				A247BDCD87B5742100D8BB3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,25 +178,72 @@
 			);
 			name = "abrevva-ios-sdk";
 			productName = "abrevva-ios-sdk";
-			productReference = 3947D3342B4E84FA00E72544 /* libabrevva-ios-sdk.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 3947D3DB2B4E8B7600E72544 /* abrevva-ios-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3947D3EA2B4E8B7800E72544 /* abrevva-ios-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3947D4022B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdkTests" */;
+			buildPhases = (
+				F3714D96653CE6B2A8343F69 /* [CP] Check Pods Manifest.lock */,
+				3947D3E72B4E8B7800E72544 /* Sources */,
+				3947D3E82B4E8B7800E72544 /* Frameworks */,
+				3947D3E92B4E8B7800E72544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3947D3ED2B4E8B7800E72544 /* PBXTargetDependency */,
+			);
+			name = "abrevva-ios-sdkTests";
+			productName = "abrevva-ios-sdkTests";
+			productReference = 3947D3EB2B4E8B7800E72544 /* abrevva-ios-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3947D3F42B4E8B7800E72544 /* abrevva-ios-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3947D4052B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdkUITests" */;
+			buildPhases = (
+				F62194F50378F4ACAD02D843 /* [CP] Check Pods Manifest.lock */,
+				3947D3F12B4E8B7800E72544 /* Sources */,
+				3947D3F22B4E8B7800E72544 /* Frameworks */,
+				3947D3F32B4E8B7800E72544 /* Resources */,
+				2270CDF02C278F73BEF9D19A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3947D3F72B4E8B7800E72544 /* PBXTargetDependency */,
+			);
+			name = "abrevva-ios-sdkUITests";
+			productName = "abrevva-ios-sdkUITests";
+			productReference = 3947D3F52B4E8B7800E72544 /* abrevva-ios-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3947D32C2B4E84FA00E72544 /* Project object */ = {
+		3947D3D32B4E8B7600E72544 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					3947D3332B4E84FA00E72544 = {
+					3947D3DA2B4E8B7600E72544 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					3947D3EA2B4E8B7800E72544 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3947D3DA2B4E8B7600E72544;
+					};
+					3947D3F42B4E8B7800E72544 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3947D3DA2B4E8B7600E72544;
 					};
 				};
 			};
-			buildConfigurationList = 3947D32F2B4E84FA00E72544 /* Build configuration list for PBXProject "abrevva-ios-sdk" */;
+			buildConfigurationList = 3947D3D62B4E8B7600E72544 /* Build configuration list for PBXProject "abrevva-ios-sdk" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,18 +251,78 @@
 				en,
 				Base,
 			);
-			mainGroup = 3947D32B2B4E84FA00E72544;
-			productRefGroup = 3947D3352B4E84FA00E72544 /* Products */;
+			mainGroup = 3947D3D22B4E8B7600E72544;
+			productRefGroup = 3947D3DC2B4E8B7600E72544 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3947D3332B4E84FA00E72544 /* abrevva-ios-sdk */,
+				3947D3DA2B4E8B7600E72544 /* abrevva-ios-sdk */,
+				3947D3EA2B4E8B7800E72544 /* abrevva-ios-sdkTests */,
+				3947D3F42B4E8B7800E72544 /* abrevva-ios-sdkUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3947D3D92B4E8B7600E72544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3E92B4E8B7800E72544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3F32B4E8B7800E72544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		E4523330AD0E5F2C6900D1C5 /* [CP] Check Pods Manifest.lock */ = {
+		2270CDF02C278F73BEF9D19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A247BDCD87B5742100D8BB3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-abrevva-ios-sdk/Pods-abrevva-ios-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA7805E2E8C36A21038C3DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,21 +344,98 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F3714D96653CE6B2A8343F69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-abrevva-ios-sdkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62194F50378F4ACAD02D843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3947D3302B4E84FA00E72544 /* Sources */ = {
+		3947D3D72B4E8B7600E72544 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3947D3412B4E86CB00E72544 /* src in Sources */,
+				3947D4152B4E8E0200E72544 /* NfcSession.swift in Sources */,
+				3947D4142B4E8E0200E72544 /* Mqtt5Client.swift in Sources */,
+				3947D4122B4E8E0200E72544 /* Data+Extension.swift in Sources */,
+				3947D4132B4E8E0200E72544 /* Message.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3E72B4E8B7800E72544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3947D3F02B4E8B7800E72544 /* abrevva_ios_sdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3947D3F12B4E8B7800E72544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3947D3FA2B4E8B7800E72544 /* abrevva_ios_sdkUITests.swift in Sources */,
+				3947D3FC2B4E8B7800E72544 /* abrevva_ios_sdkUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3947D3ED2B4E8B7800E72544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3947D3DA2B4E8B7600E72544 /* abrevva-ios-sdk */;
+			targetProxy = 3947D3EC2B4E8B7800E72544 /* PBXContainerItemProxy */;
+		};
+		3947D3F72B4E8B7800E72544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3947D3DA2B4E8B7600E72544 /* abrevva-ios-sdk */;
+			targetProxy = 3947D3F62B4E8B7800E72544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3947D3392B4E84FA00E72544 /* Debug */ = {
+		3947D3FD2B4E8B7800E72544 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +498,7 @@
 			};
 			name = Debug;
 		};
-		3947D33A2B4E84FA00E72544 /* Release */ = {
+		3947D3FE2B4E8B7800E72544 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,56 +554,184 @@
 			};
 			name = Release;
 		};
-		3947D33C2B4E84FA00E72544 /* Debug */ = {
+		3947D4002B4E8B7800E72544 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDFBA2A0D6F9D42697D162B6 /* Pods-abrevva-ios-sdk.debug.xcconfig */;
+			baseConfigurationReference = 432ADF7AA7DC48D1DCFB57DF /* Pods-abrevva-ios-sdk.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47Z5RC7U2C;
-				OTHER_LDFLAGS = "-ObjC";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evva.xesasr.mcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3947D33D2B4E84FA00E72544 /* Release */ = {
+		3947D4012B4E8B7800E72544 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99FB90DA51235679EDB7E58B /* Pods-abrevva-ios-sdk.release.xcconfig */;
+			baseConfigurationReference = 03A63766C2133F46E1607004 /* Pods-abrevva-ios-sdk.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47Z5RC7U2C;
-				OTHER_LDFLAGS = "-ObjC";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evva.xesasr.mcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3947D4032B4E8B7800E72544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872A32365A0E79B82B316B45 /* Pods-abrevva-ios-sdkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Z5RC7U2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evva.xesasr.mcs.abrevva-ios-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abrevva-ios-sdk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/abrevva-ios-sdk";
+			};
+			name = Debug;
+		};
+		3947D4042B4E8B7800E72544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9300D2C6B9D0D92520E0C88 /* Pods-abrevva-ios-sdkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Z5RC7U2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evva.xesasr.mcs.abrevva-ios-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abrevva-ios-sdk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/abrevva-ios-sdk";
+			};
+			name = Release;
+		};
+		3947D4062B4E8B7800E72544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA873599812B9AC43A90C52 /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Z5RC7U2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evva.xesasr.mcs.abrevva-ios-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "abrevva-ios-sdk";
+			};
+			name = Debug;
+		};
+		3947D4072B4E8B7800E72544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7D571285DC3675430FADBF /* Pods-abrevva-ios-sdk-abrevva-ios-sdkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Z5RC7U2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evva.xesasr.mcs.abrevva-ios-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "abrevva-ios-sdk";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3947D32F2B4E84FA00E72544 /* Build configuration list for PBXProject "abrevva-ios-sdk" */ = {
+		3947D3D62B4E8B7600E72544 /* Build configuration list for PBXProject "abrevva-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3947D3392B4E84FA00E72544 /* Debug */,
-				3947D33A2B4E84FA00E72544 /* Release */,
+				3947D3FD2B4E8B7800E72544 /* Debug */,
+				3947D3FE2B4E8B7800E72544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3947D33B2B4E84FA00E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdk" */ = {
+		3947D3FF2B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3947D33C2B4E84FA00E72544 /* Debug */,
-				3947D33D2B4E84FA00E72544 /* Release */,
+				3947D4002B4E8B7800E72544 /* Debug */,
+				3947D4012B4E8B7800E72544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3947D4022B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3947D4032B4E8B7800E72544 /* Debug */,
+				3947D4042B4E8B7800E72544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3947D4052B4E8B7800E72544 /* Build configuration list for PBXNativeTarget "abrevva-ios-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3947D4062B4E8B7800E72544 /* Debug */,
+				3947D4072B4E8B7800E72544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3947D32C2B4E84FA00E72544 /* Project object */;
+	rootObject = 3947D3D32B4E8B7600E72544 /* Project object */;
 }

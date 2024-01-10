@@ -1,1 +1,0 @@
-../../../Target Support Files/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket-umbrella.h
